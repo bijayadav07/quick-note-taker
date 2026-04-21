@@ -1,1 +1,1 @@
-# quick-note-taker
+# note--taker
