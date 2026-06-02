@@ -1,57 +1,45 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Quick Note Taker kumar</title>
+  
+<meta charset="UTF-8">
+<title>Quick Note Taker</title>
 
-    <style>
-        body {
-            font-family: system-ui;
-            padding: 20px;
-            background: #f4f4f4;
-        }
-        
-        textarea {
-            width: 95%;
-            height: 60vh;
-            font-size: 18px;
-            padding: 15px;
-        }
-        
-        button {
-            padding: 12px 20px;
-            font-size: 16px;
-            background: #316357;
-            color: white;
-            border: none;
-            cursor: pointer;
-            margin-right: 10px;
-        }
-        
-        #deleteBtn {
-            background: #f44336;
-        }
-    </style>
+<style>
+body {
+font-family: system-ui;
+padding: 20px;
+background: #f4f4f4;
+}
+
+textarea {
+width: 95%;
+height: 60vh;
+font-size: 18px;
+padding: 15px;
+}
+
+button {
+padding: 12px 30px;
+font-size: 18px;
+background: #316357;
+color: white;
+border: none;
+cursor: pointer;
+}
+</style>
 </head>
 
 <body>
-    <h1>📝 Quick Note Taker</h1>
+<h1>Quick Note Taker</h1>
 
-    <textarea id="note" placeholder="Start typing your note..."></textarea>
+<textarea id="note" placeholder="Start typing your note..."></textarea>
+<br><br>
 
-    <br><br>
+<button id="save"> Save Note</button>
 
-    <!-- NEW BUTTONS (from PDF) -->
-    <button id="newNote">🆕 New Note</button>
-    <button id="openFile">📂 Open File</button>
-    <button id="saveAs">💾 Save As</button>
-    <button id="save">💾 Save</button>
-    <button id="deleteBtn">🗑 Delete All</button>
-
-    <p id="status" style="color:gray; font-size:14px;"></p>
-
-    <script src="renderer.js"></script>
+<script src="renderer.js"></script>
 </body>
 
 </html>
+
